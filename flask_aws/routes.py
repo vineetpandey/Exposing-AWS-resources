@@ -2,9 +2,12 @@ from flask import render_template, url_for, flash, redirect
 from flask_aws import app
 from flask_aws.forms import RegistrationForm, LoginForm
 
+from aws_resources.s3 import s3_public_via_policies
+s3_public_via_policies.s3_public_check()
 posts = [
     {
-        'author': 'Vineet Pandey',
+        # 'author': 'Vineet Pandey',
+        'author': s3_public_via_policies.x,
         'title': 'Blog Post 1',
         'content': 'First post content',
         'date_posted': 'Jan 11, 2020'
