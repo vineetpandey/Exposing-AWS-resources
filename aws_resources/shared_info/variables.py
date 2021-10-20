@@ -5,6 +5,7 @@ import configparser
 import os
 import re
 import logging
+import sys
 
 
 def init():
