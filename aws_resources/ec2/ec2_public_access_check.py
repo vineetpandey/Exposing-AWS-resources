@@ -26,7 +26,7 @@ def ec2_public_facing_check(cache: dict, awsAccountId: str, awsRegion: str, awsP
                     instanceLaunchedAt = str(i["BlockDeviceMappings"][0]["Ebs"]["AttachTime"])
                     # If the Public DNS is not empty that means there is an entry, and that is is public facing
                     if str(i["PublicDnsName"]) != "":
-						print("Instance: {} is public!".format(i))
-
-	except Exception as e:
+                        print("Instance: {} is public!".format(i))
+                        
+    except Exception as e:
         print(e)
