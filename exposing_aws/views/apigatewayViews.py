@@ -1,4 +1,3 @@
-
 import imp
 import json
 from django.shortcuts import render
@@ -76,4 +75,3 @@ def s3_public_check(request):
 
     except Exception as error:
         logging.error("Error Message: ", error)
-
