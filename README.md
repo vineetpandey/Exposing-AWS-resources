@@ -1,4 +1,4 @@
-> A batteries-included Django starter project. To learn more try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
+> A batteries-included Django starter project. To learn more about this, try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
 
 ## 🚀 Features
 
@@ -118,7 +118,7 @@ Contributions, issues and feature requests are welcome! See [CONTRIBUTING.md](ht
 
 ## ⭐️ Support
 
-Give a ⭐️  if this project helped you!
+Give a ⭐️  if this project helps you!
 
 ## License
 
