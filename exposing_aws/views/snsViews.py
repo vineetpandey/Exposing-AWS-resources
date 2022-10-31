@@ -75,4 +75,3 @@ def s3_public_check(request):
 
     except Exception as error:
         logging.error("Error Message: ", error)
-
