@@ -10,7 +10,7 @@ from .shared_info.resources import *
 from .shared_info.variables import *
 
 # Create your views here.
-x="hello from AWS!"
+x="Hello from AWS!"
 
 def s3_public_check(request):
     s3_info = []
